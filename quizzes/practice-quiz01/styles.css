@@ -1,0 +1,42 @@
+body{
+    background-color: #F0F4EF;
+}
+
+header{
+    background-color: #b4cded;
+    text-align: center;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    padding: 8px
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.center {
+    display: inline-block;
+    margin-top: 40px ;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 375px;
+  }
+
+footer{
+    background-color: #344966;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
