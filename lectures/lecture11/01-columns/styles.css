@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+main>section {
+    padding: 20px;
+    background-color: white;
+    border: 4px solid tomato;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+main{
+    display: grid; /*puts into grid mode*/
+    grid-template-columns: (5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+/* when do we want to apply the meadia quesrry to a tablet?*/
+@media screen and (max-width: 1000px) {
+
+    main{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* media querry for less than 500 ppx*/
+
+@media screen and (max-with: 500px){
+    main{
+        grid-template-columns: repeat (1, 1fr);
+    }
+}
