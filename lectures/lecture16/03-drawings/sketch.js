@@ -12,8 +12,8 @@ function setup() {
     */
 
     // https://p5js.org/reference/#/p5/circle
-    fill("teal")
-    circle(550, 100, 100);
+    // fill("teal")
+    // circle(550, 100, 100);
 
     // https://p5js.org/reference/#/p5/rect
     fill('hotpink')
@@ -21,14 +21,39 @@ function setup() {
 
     // add your drawing here:
     // https://p5js.org/reference/#/p5/point
-    // point(110, 20);
+    strokeWeight(20);
+    point(110, 20);
 
-    // https://p5js.org/reference/#/p5/text
-    // text("Here is some text", 200, 40);
+    https://p5js.org/reference/#/p5/text
+    fill('black')
+    text("Here is some text", 200, 40);
 
-    // https://p5js.org/reference/#/p5/ellipse
-    // fill('red');
-    // ellipse(100, 200, 60, 100);
+    https://p5js.org/reference/#/p5/ellipse
+    fill('red');
+    ellipse(100, 200, 60, 100);
+
+
+/** My Attempt **/
+    fill('orange');
+    circle(500,300,300);
+    
+    fill('black');
+    circle(500,300,100);
+
+    fill('orange');
+    circle(900,300,300);
+
+    fill('black');
+    circle(900,300,100);
+
+    fill('red');
+    circle(700,500,100);
+
+    fill('black');
+    rect(500,100,20);
+    
+    fill('black');
+    rect(900,100,20);
 
     // Other shapes...
     // Polygon: https://p5js.org/reference/#/p5/beginShape
