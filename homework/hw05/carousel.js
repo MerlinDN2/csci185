@@ -24,7 +24,8 @@ function showImage() {
     // also target the caption and change it too!
     const img = document.querySelector("#the_image"); //const is a "bucket"
     img.src = photos[idx]; //{} what goes in the body of a function, []something about an array, ()what needs to go into that funcion
-    // const p = document.querySelector(".caption");
+    const p = document.querySelector(".caption");
+    p.innerHTML =`Image ${idx + 1} of 10`;
 }
 
 
@@ -35,7 +36,14 @@ function showImage() {
    the array, set idx to 0.
 */
 function forward() {
-    idx += 1;
+    // idx += 1;
+    if (idx === 9) {
+        console.log("reset");
+        idx = 0;
+    } else { 
+        console.log("add one");
+        idx++;
+     }
     showImage();
 }
 
@@ -46,6 +54,13 @@ function forward() {
    one less than the length of the array.
 */
 function back() {
-    idx -= 1;
+    // idx -= 1;
+    if (idx===0){
+        console.log("reset");
+        idx = 9;
+    } else{
+        console.log("minus one");
+        idx--;
+    }
     showImage();
 }
