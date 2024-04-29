@@ -28,10 +28,24 @@ fetchCourses();
 function search() {
     console.log(data);
     const searchTerm = document.querySelector('#search_term').value;
+const mainEl = document.querySelector(".courses");
 
 for (let i = 0; i< data.length; i++){
 if (data[i].Department === searchTerm){
+    // 1. Build HTML snippet
 
+    const template = `
+    <section class="course">
+    <h2>${data[i].Code}:${data[i].Title}</h2>
+    <p>
+       ${data[i].Days} &bull; ${data[i].Location.FullLocation} &bull; ${data[i].Hours}
+    </p>
+    <p><strong>${data[i].Instructors[0].Name}</strong></p>
+</section>
+`;
+
+//2. Insert template into the DOM
+mainEl.insertAdjacentHTML('beforeend',template);
     console.log(data[i].Title);
     }
 }
