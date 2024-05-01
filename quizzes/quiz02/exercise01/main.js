@@ -11,5 +11,5 @@ function goodbye() {
 
 function showDog() {
     // your code here
-    document.querySelector("#animal1").src="./images/dog.jpg";
+    document.querySelector("#animal1").src="./images/   kdog.jpg";
 }
