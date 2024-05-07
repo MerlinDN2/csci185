@@ -8,8 +8,11 @@
 background-image: url(NEWBKGD.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-width: 1420px; 
-height: 760px;
+/* width: 1420px; 
+height: 760px; */
+width: 100%;
+height:100vh;
+object-fit: cover;
 }
 
 .splash-title{
@@ -59,7 +62,7 @@ height: 760px;
 	background-image: url(CLOSEPNG2.png);
 	position: absolute;
 	width: 780px;
-	height: 760px;
+	height: 780px;
 	background-repeat: no-repeat;
 	}
 /* note: the height and width values should match the height and width of the rollover images */
@@ -156,8 +159,11 @@ background-color: rgb(45, 154, 197);
 .main-bkgd{
 	background-image: url(MAINBKGD3.jpg);
 	background-repeat: no-repeat;
-	width: 1420px;
-	height: 760px;
+	/* width: 1420px;
+	height: 760px; */
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 }
 .main-swap {
 	background-image: url(NEWDESKBKGD.jpg);
@@ -231,8 +237,11 @@ background-color: rgb(45, 154, 197);
 .join-bkgd{
 	background-image: url(NEWNEWDESK.jpg);
 	background-repeat: no-repeat;
-	width: 1420px;
-	height: 760px;
+	/* width: 1420px;
+	height: 760px; */
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 }
 
 .keyboard-swap {
@@ -301,9 +310,12 @@ background-color: rgb(45, 154, 197);
 .web-swap{
 	background-image: url(THEWEB.jpg);
 	position: absolute;
-	width: 1420px;
-	height: 760px;
+	/* width: 1420px;
+	height: 760px; */
 	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 }
 
 .web-swap:hover ~ .computer {
@@ -312,8 +324,11 @@ background-color: rgb(45, 154, 197);
 	
 	.web-swap:hover {
 	background-image: url(NEWBUNNY-OJ.png);
-	width: 1420px;
-	height: 760px;
+	/* width: 1420px;
+	height: 760px; */
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 	}
 	.computer {
 		background-image: url(NEWBUNNY-OJ.png);
@@ -324,8 +339,11 @@ background-color: rgb(45, 154, 197);
 
 /** DRAW SECTION PAGE **/
 .background2{
-	width: 1420px;
-	height: 760px;
+	/* width: 1420px;
+	height: 760px; */
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 	background-image: url(UNDERDESK.jpg);
 	background-repeat: no-repeat;
 }
@@ -362,8 +380,11 @@ background-color: rgb(45, 154, 197);
 .lie-down{
 	background-image: url(LIEDOWN.jpg);
 	background-repeat: no-repeat;
-	width: 1420px;
-	height: 760px;
+	/* width: 1420px;
+	height: 760px; */
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 }
 
  .cat-swap{
@@ -461,8 +482,11 @@ background-color: rgb(45, 154, 197);
 .lie-down-bkgd{
 background-image: url(CATBED.jpg);
 background-repeat: no-repeat;
-width:1420px;
-height: 760px;
+/* width:1420px;
+height: 760px; */
+width: 100%;
+height:100vh;
+object-fit: cover;
 }
 
 .cat-sit{
@@ -495,8 +519,11 @@ height: 760px;
 .game-bkgd{
 	background-image: url(GAMERBKGD.jpg);
 	background-repeat: no-repeat;
-	width:1420px;
-	height:760px;
+	/* width:1420px;
+	height:760px; */
+	width: 100%;
+	height:100vh;
+	object-fit: cover;
 }
 
 
